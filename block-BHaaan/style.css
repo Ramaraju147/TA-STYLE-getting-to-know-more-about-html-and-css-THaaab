@@ -1,184 +1,110 @@
-/* http://meyerweb.com/eric/tools/css/reset/
+/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
 }
 body {
-  line-height: 1;
+	line-height: 1;
 }
-ol,
-ul {
-  list-style: none;
+ol, ul {
+	list-style: none;
 }
-blockquote,
-q {
-  quotes: none;
+blockquote, q {
+	quotes: none;
 }
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
 }
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-.main-header {
-  background-color: #5cdb95;
-  color: #05386b;
-  text-align: center;
-  padding: 20px;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-header a {
+.main-header{
+  background-color: rgb(199,134,198);
+  text-align: center;
+  padding: 10px;
+}
+
+main{
+  width:50%;
+  display:block;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+img{
+  width:100%;
+  display:block
+}
+
+a{
   text-decoration: none;
-  font-size: 28px;
-  padding: 20px;
-}
-
-section {
-  padding-top: 25px;
-  margin: 0 auto;
-  width: 50%;
-}
-
-.adate {
-  color: #05386b;
-  font-weight: 400;
   font-size: 20px;
-  padding-bottom: 10px;
+  font-weight: 500;
+  display: block;
+  margin: 10px;
+  margin-left: 0px;
 }
 
-.parat {
-  line-height: 1.5;
-  padding-top: 15px;
+nav a{
+  margin:10px;
+  display: inline-block
 }
 
-hr {
-  margin: 20px auto;
-  width: 50%;
-}
-
-.read {
-  padding-top: 15px;
-}
-
-strong {
+h2{
+  font-size: 30px;
   font-weight: bold;
-  color: #05386b;
+  margin: 10px 0px;
 }
 
-footer {
-  background-color: #5cdb95;
-  margin-top: 15px;
+p{
+  line-height: 1.3;
+  font-size: 16px;
+  margin: 10px 0px;
 }
 
-.foot {
+hr{
+  margin:10px;
+  display: block;
+}
+
+article{
+  margin: 15px;
+}
+
+footer{
+  background-color: rgb(144,144,231);
   text-align: center;
   padding: 20px;
-  font-size: 20px;
 }
+
+
+
